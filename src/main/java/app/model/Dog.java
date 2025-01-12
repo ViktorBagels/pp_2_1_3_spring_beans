@@ -1,17 +1,19 @@
 package app.model;
 
+
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+
+public class Dog extends Animal {
 
     @Override
     public String makeSound() {
-        return "Mya";
+        return "Gav";
     }
 
     @Override
     public String toString() {
-        return "I'm a Cat";
+        return "i'm a Dog";
     }
 }
