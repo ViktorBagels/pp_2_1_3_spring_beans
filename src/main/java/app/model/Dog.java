@@ -11,9 +11,4 @@ public class Dog extends Animal {
     public String makeSound() {
         return "Gav";
     }
-
-    @Override
-    public String toString() {
-        return "i'm a Dog";
-    }
 }

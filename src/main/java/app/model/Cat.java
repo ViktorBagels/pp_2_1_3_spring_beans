@@ -9,9 +9,4 @@ public class Cat extends Animal {
     public String makeSound() {
         return "Mya";
     }
-
-    @Override
-    public String toString() {
-        return "I'm a Cat";
-    }
 }
